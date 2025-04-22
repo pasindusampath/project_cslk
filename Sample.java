@@ -10,6 +10,6 @@ class Cat implements Animal{
 class Bird implements Animal{
 	@Override
 	public void move(){
-		System.out.printl("Bird is Flying");
+		System.out.println("Bird is Flying");
 	}
 }
