@@ -35,9 +35,3 @@ public class Main {
 
 }
 
-//Question - characters given in a circular queue are stored in 
-//descending order. write a java program to duplicate the same characters 
-//in ascending order and append to the same queue. Simulate the above 
-//scenario by first entering 5 characters from the keyboard in ascending order. 
-//Store them in the queue. Finally remove all the values from the queue and display them. 
-//Eg:- (Before) [Z|Y|X|W|V| | | | | ]  After:- [Z|Y|X|W|V|V|W|X|Y|Z]
