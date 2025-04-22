@@ -1,6 +1,5 @@
 // TypeScript implementation of Example.java
 
-
 class Example {
 
   public static main(): void {
@@ -16,5 +15,4 @@ class Example {
   }
 }
 
-// Call the main method when the script is executed
 Example.main();

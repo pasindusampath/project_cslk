@@ -11,6 +11,5 @@ def print_messages():
     print("Hello I am a Python Developer")
     print("welcome to the world of Python")
 
-# Call the function if this file is executed directly
 if __name__ == "__main__":
     print_messages()

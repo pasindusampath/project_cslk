@@ -1,7 +1,6 @@
 // JavaScript implementation of Example.java
 
 function printMessages() {
-  // Print messages with proper formatting
   console.log("===== JavaScript Demo Program =====");
   console.log("Line 1: Hello World");
   console.log("Line 2: Hello JavaScript Programming");
@@ -12,5 +11,4 @@ function printMessages() {
   console.log("welcome to the world of JavaScript");
 }
 
-// Call the function when the script is executed
 printMessages();

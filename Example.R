@@ -12,5 +12,4 @@ print_messages <- function() {
   cat("welcome to the world of R\n")
 }
 
-# Call the function
 print_messages()
