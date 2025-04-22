@@ -13,3 +13,9 @@ class Bird implements Animal{
 		System.out.printl("Bird is Flying");
 	}
 }
+class Dog implements Animal{
+	@Override
+	public void move(){
+		System.out.printl("Dog bark");
+	}
+}
