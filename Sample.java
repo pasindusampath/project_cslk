@@ -90,26 +90,64 @@ class Bird implements Animal {
     public String getSpecies() {
         return species;
     }
-class Bird implements Animal{
-	@Override
-	public void move(){
-		System.out.println("Bird is Flying");
-	}
 }
 
-class Dog implements Animal{
-	@Override
-	public void move(){
-		System.out.println("Dog is Running");
-	}
+/**
+ * Dog class implements the Animal interface
+ */
+class Dog implements Animal {
+    private String breed;
+    
+    /**
+     * Constructor for Dog
+     * @param breed the dog breed
+     */
+    public Dog(String breed) {
+        this.breed = breed;
+    }
+
+    @Override
+    public void move() {
+        System.out.println(breed + " dog is running");
+    }
+
+    @Override
+    public String makeSound() {
+        return "Woof";
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(breed + " dog is eating kibble");
+    }
+    
+    /**
+     * @return the dog's breed
+     */
+    public String getBreed() {
+        return breed;
+    }
 }
-class Sample{
-	public static void main(String[] args){
-		Animal a = new Cat();
-		a.move();
-		a = new Bird();
-		a.move();
-		a = new Dog();
-		a.move();
-	}
+
+/**
+ * Main class to test the Animal implementations
+ */
+class Sample {
+    public static void main(String[] args) {
+        // Create animals with appropriate parameters
+        Animal a = new Cat("Whiskers");
+        System.out.println(a.makeSound());
+        a.move();
+        a.eat();
+
+        a = new Bird("Sparrow");
+        System.out.println(a.makeSound());
+        a.move();
+        a.eat();
+
+        a = new Dog("Golden Retriever");
+        System.out.println(a.makeSound());
+        a.move();
+        a.eat();
+    }
 }
