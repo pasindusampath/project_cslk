@@ -151,3 +151,19 @@ class Sample {
         a.eat();
     }
 }
+class Dog implements Animal{
+	@Override
+	public void move(){
+		System.out.println("Bird is Flying");
+	}
+
+
+
+}
+class Fish implements Animal{
+	@Override
+	public void move(){
+		System.out.println("Fish is Swimming");
+		System.out.printl("Dog bark");
+	}
+}
