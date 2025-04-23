@@ -1,9 +1,10 @@
-# 🌟 PROJECT CSLK: A Collaborative Journey into Programming Languages and Git 🌟
+<h1 align="center"> 🌟 PROJECT CSLK 🌟 </h1> 
+<h3 align="center"> A Collaborative Journey into Programming Languages and Git </h3>
 
-## 📜 Description
+## 📜Description 
 Welcome to **PROJECT_CSLK**, a fun and collaborative project where 30 passionate developers came together to experiment with various programming languages while learning GitHub’s version control systems. Each participant contributed their own creative work—ranging from simple "Hello World" programs to complex games and applications.
 
-Throughout this project, we worked with technologies like **Python**, **Java**, **C++**, **Rust**, **HTML/CSS**, **JavaScript**, and many more! The main goal was not just to practice coding, but to understand how version control and collaboration work in real-world software development.
+Throughout this project, we worked with technologies like  **Java**, **C++**, **Python**, **HTML/CSS**, **JavaScript**, **Rust** and many more! The main goal was not just to practice coding, but to understand how version control and collaboration work in real-world software development.
 
 ---
 
@@ -17,21 +18,8 @@ Throughout this project, we worked with technologies like **Python**, **Java**, 
 ---
 
 ## ⚙️ Technologies Used
-- **Languages:** Python, Java, HTML, CSS, JavaScript, C++, Rust, C#, and more!
+- **Languages:** Java, C++, Python, HTML/CSS, JavaScript, Rust and many more!
 - **Tools & Frameworks:** GitHub, Git, Python Turtle, and others.
-
----
-
-## 🔧 How It Works
-This repository is organized into individual branches, each dedicated to a participant’s contribution. Here's how we managed the collaboration:
-
-1. **Fork** the repository to your GitHub account.
-2. **Create** your own branch to work on your feature or project.
-3. **Push** your changes to your branch.
-4. **Submit a Pull Request** to the main repository for review.
-5. The repository owners or maintainers will review your PR and merge it into the **main** branch.
-
-This process allowed everyone to showcase their creativity, all while learning about GitHub’s essential version control mechanisms—**branching**, **merging**, and **conflict resolution**.
 
 ---
 
@@ -50,6 +38,7 @@ A huge thanks to these amazing developers who contributed their time and skills 
 - [**Mihisara Nithadya**](https://github.com/nithadya)
 - [**SadeepaNHerath**](https://github.com/SadeepaNHerath)
 - [**Chamod Anjana**](https://github.com/ChamodAnjana)
+- [**LK-BL**](https://github.com/lk-bl)
 - And many more!
 
 Want to see all the contributors? Check out the full list on the [Contributors page](link_to_contributors).
@@ -92,6 +81,7 @@ A powerful To-DO list Daily Planner app built in Rust to Save and Organize Your 
 ---
 
 ## 🤝 How to Contribute
+This repository is organized into individual branches, each dedicated to a participant’s contribution.
 We encourage more contributions! If you’d like to add your own project or improve this repository, follow these steps:
 
 1. **Fork** the repository to your GitHub account.
@@ -100,11 +90,13 @@ We encourage more contributions! If you’d like to add your own project or impr
 4. **Make** your changes and commit them (`git commit -m "Add my awesome feature"`).
 5. **Push** your changes to your fork (`git push origin feature/my-feature`).
 6. **Open a Pull Request** to the main repository.
+7. The repository owners or maintainers will review your PR and merge it into the **main** branch.
 
-We value good coding practices, so make sure your code is clean and well-documented. Don’t hesitate to add new projects or enhancements, regardless of the language or technology used!
-
+    
+    This process allowes everyone to showcase their creativity, all while learning about GitHub’s essential version control mechanisms—**branching**, **merging**, and **conflict resolution**.
+    We value good coding practices, so make sure your code is clean and well-documented. Don’t hesitate to add new projects or enhancements, regardless of the language or technology used!
+   
 ---
-
 
 ## 🎉 Thanks for Being Part of This Collaborative Journey!
 We hope you had as much fun as we did. Feel free to explore, contribute, and share your own creations with the world! 🌍
