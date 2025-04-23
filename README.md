@@ -26,6 +26,12 @@ Throughout this project, we worked with technologies like  **Java**, **C++**, **
 ## 👥 Contributors
 A huge thanks to these amazing developers who contributed their time and skills to this project:
 
+<p align="center">
+  <a href="https://dragon.edu.lk/sipsuru">
+     <img src="https://github.com/user-attachments/assets/fa7b8388-482c-4706-af60-635456dfe380" alt="Contributions">
+  </a>
+</p>
+
 - [**Pasindu Sampath**](https://github.com/pasindusampath) - Repo Owner 🌟
 - [**Waruna Liyanapathirana**](https://github.com/warundev)
 - [**Chiranjeewa Peellawatta**](https://github.com/chiraaax)
