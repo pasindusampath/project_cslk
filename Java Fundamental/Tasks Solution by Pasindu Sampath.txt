@@ -1,0 +1,21 @@
+1)
+
+2)////////////////////////////////////////////////////////
+import java.util.Scanner;
+class Example{
+		public static void main(String [] args){
+			Scanner input = new Scanner(System.in);
+			
+			System.out.print("Input Your Salary : ");
+			double salary = input.nextDouble(); 
+			boolean isBonusAvailable = salary<80000;
+			double bonus = isBonusAvailable ? (salary*0.2) : 0;
+			double newSalary = salary+bonus;
+			
+			System.out.println("old salary : "+salary);
+			System.out.println("is bonus available : "+isBonusAvailable);
+			System.out.println("Amount of Bonus : "+bonus);
+			System.out.println("Final Salary : "+newSalary);
+		}
+}
+///////////////////////////
