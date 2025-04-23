@@ -30,6 +30,7 @@ public class Main {
 			System.out.println(queue.delete());
 			
 		}
+		scanner.close();
 	
 	}
 
