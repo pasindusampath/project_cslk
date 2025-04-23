@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Example{
+	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
+		System.out.print("Input a number 1 : ");
+		int num1 = input.nextInt();
+		System.out.print("Input a number 2 : ");
+		int num2 = input.nextInt();
+		//if number 1 is greater than 2 then add the values and print total
+		//otherwise print two numbers
+	}
+}
+////////////////////////////////////////////////////////////
+
+
+import java.util.Scanner;
+class Example{
+		public static void main(String [] args){
+			Scanner input = new Scanner(System.in);
+			
+			//enter old salery 
+			//target -> employee who takes salary lesser than 80,000
+			//add 20% bonus to their salary
+			
+			// Old salary         : 
+			// is bonus available :
+			// amount of bonus    :
+			// Final salary (s+b) : 
+		}
+}
+
+/////////////////////////////////////////////////////
