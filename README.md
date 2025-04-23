@@ -47,7 +47,7 @@ A huge thanks to these amazing developers who contributed their time and skills 
 - [**LK-BL**](https://github.com/lk-bl)
 - And many more!
 
-Want to see all the contributors? Check out the full list on the [Contributors page](link_to_contributors).
+Want to see all the contributors? Check out the full list on the [Contributors page](https://github.com/pasindusampath/project_cslk/graphs/contributors).
 
 ---
 
