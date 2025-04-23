@@ -15,7 +15,7 @@ public class anja {
 				ar[i] = temp;
 			}
 		}
-	       System.out.println("After   Short "+j+":" + Arrays.toString(ar));
+	       System.out.print("After   Short "+j+":" + Arrays.toString(ar));
 		}
 		
 		
