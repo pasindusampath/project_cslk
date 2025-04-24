@@ -1,0 +1,64 @@
+Question :-
+
+import java.util.Scanner;
+class Example{
+		public static void main(String [] args){
+			Scanner input = new Scanner(System.in);
+			
+			//enter old salery as user input 
+			//target -> employee who takes salary lesser than 80,000
+			//add 20% bonus to their salary
+			
+			// Display Old salary         : 
+			// Is bonus available?(boolean) :
+			// Display amount of bonus    :
+			// Display Final salary (Salary+Bonus) : 
+		}
+}
+
+=====================================================================================================
+
+Answer:-
+
+
+
+package salary_question;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       
+        System.out.print("Enter your old salary: ");
+        double oldSalary = sc.nextDouble();
+        
+        boolean isBonusAvailable = oldSalary < 80000;
+        double bonus = 0;
+
+        if (isBonusAvailable) {
+            bonus = oldSalary * 0.20; // 20% bonus
+        }
+
+        double finalSalary = oldSalary + bonus;
+       
+        System.out.println("Old salary : " + oldSalary);
+        System.out.println("Is bonus available (Boolean) : " + isBonusAvailable);
+        System.out.println("Amount of bonus : " + bonus);
+        System.out.println("Final salary (salary+bonus) : " + finalSalary);
+
+        sc.close();
+    }
+}
+
+=====================================================================================================
+
+Sample Output:- 
+
+
+Enter your old salary: 50000.00
+
+Old salary : 50000.0
+Is bonus available (Boolean) : true
+Amount of bonus : 10000.0
+Final salary (salary+bonus) : 60000.0

@@ -1,17 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <numeric>  // For accumulate
 
 // Function to calculate the average of a vector of numbers
 double calculateAverage(const std::vector<int>& numbers) {
-    if (numbers.empty()) {
-        return 0.0;
-    }
-    int sum = 0;
-    for (int num : numbers) {
-        sum += num;
-    }
-    return static_cast<double>(sum) / numbers.size();
+    return numbers.empty() ? 0.0 : static_cast<double>(std::accumulate(numbers.begin(), numbers.end(), 0)) / numbers.size();
 }
 
 // Function to find the maximum number in a vector
@@ -24,13 +18,28 @@ int findMin(const std::vector<int>& numbers) {
     return *std::min_element(numbers.begin(), numbers.end());
 }
 
+// Safely reads an integer with input validation
+bool readInteger(int& value) {
+    std::cin >> value;
+    if (std::cin.fail()) {
+        std::cin.clear(); // Clear error flags
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore invalid input
+        return false;
+    }
+    return true;
+}
+
 int main() {
     std::vector<int> numbers;
     int input;
 
     std::cout << "Enter numbers (type -1 to stop):" << std::endl;
     while (true) {
-        std::cin >> input;
+        std::cout << "> ";
+        if (!readInteger(input)) {
+            std::cout << "Invalid input. Please enter an integer." << std::endl;
+            continue;
+        }
         if (input == -1) {
             break;
         }
