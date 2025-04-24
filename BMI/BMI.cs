@@ -4,32 +4,28 @@ class BMI
 {
     static void Main(string[] args)
     {
+        const double UnderweightThreshold = 18.5;
+        const double NormalWeightMax = 24.9;
+        const double OverweightMax = 29.9;
+
         Console.WriteLine("BMI Calculator");
 
-        // Get weight in kilograms
-        Console.Write("Enter your weight in kilograms: ");
-        double weight = Convert.ToDouble(Console.ReadLine());
+        double weight = ReadPositiveDouble("Enter your weight in kilograms: ");
+        double height = ReadPositiveDouble("Enter your height in meters: ");
 
-        // Get height in meters
-        Console.Write("Enter your height in meters: ");
-        double height = Convert.ToDouble(Console.ReadLine());
-
-        // Calculate BMI
         double bmi = weight / (height * height);
-
-        // Display BMI
         Console.WriteLine($"Your BMI is: {bmi:F2}");
 
         // Determine BMI category
-        if (bmi < 18.5)
+        if (bmi < UnderweightThreshold)
         {
             Console.WriteLine("Category: Underweight");
         }
-        else if (bmi >= 18.5 && bmi < 24.9)
+        else if (bmi >= UnderweightThreshold && bmi <= NormalWeightMax)
         {
             Console.WriteLine("Category: Normal weight");
         }
-        else if (bmi >= 25 && bmi < 29.9)
+        else if (bmi > NormalWeightMax && bmi <= OverweightMax)
         {
             Console.WriteLine("Category: Overweight");
         }
@@ -37,5 +33,22 @@ class BMI
         {
             Console.WriteLine("Category: Obesity");
         }
+    }
+
+    static double ReadPositiveDouble(string prompt)
+    {
+        double value;
+        do
+        {
+            Console.Write(prompt);
+            string input = Console.ReadLine();
+
+            if (!double.TryParse(input, out value) || value <= 0)
+            {
+                Console.WriteLine("Please enter a valid positive number.");
+            }
+        } while (value <= 0);
+
+        return value;
     }
 }
