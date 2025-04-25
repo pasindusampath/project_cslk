@@ -9,12 +9,11 @@ Throughout this project, we worked with technologies like  **Java**, **C++**, **
 ---
 
 ## 📝 Table of Contents
-1. [Technologies Used](#technologies-used)
-2. [How It Works](#how-it-works)
-3. [Contributors](#contributors)
-4. [Showcase](#showcase)
-5. [How to Contribute](#how-to-contribute)
-
+1. [Technologies Used](#%EF%B8%8F-technologies-used)
+2. [Contributors](#-contributors)
+3. [Showcase](#-showcase)
+4. [How to Contribute](#-how-to-contribute)
+   
 ---
 
 ## ⚙️ Technologies Used
