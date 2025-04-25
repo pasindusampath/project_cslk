@@ -15,7 +15,7 @@ for apk in apk_files:
     print(f"\n🔹 Zipaligning: {apk}")
 
     # Build the zipalign command
-    command = f'{ZIPALIGN} -c -P 16 -v 4 "{apk}"'
+    command = f'{ZIPALIGN} -f -P 16 -v 4 "{apk}"'
 
     # Run the command and display output
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)
