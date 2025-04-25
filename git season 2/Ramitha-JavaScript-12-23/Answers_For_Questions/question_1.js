@@ -1,5 +1,5 @@
-const FirstName = "Ramitha";
-const LastName = "Heshan";
+const FIRST_NAME = "Ramitha";
+const LAST_NAME = "Heshan";
 
-const FullName = FirstName + " " + LastName;
-console.log(FullName);
+const FULL_NAME = FIRST_NAME + " " + LAST_NAME;
+console.log(FULL_NAME);
