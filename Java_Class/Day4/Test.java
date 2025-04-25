@@ -1,13 +1,13 @@
-public class test {
+public class Test {
     public static void main(String[] args) {
 
         byte a = 10;
         int b = a;
         System.out.println(b); // Wide Conversion
 
-        int c = 10;
-        byte d = c;
-        System.out.println(d); // Narrow Conversion
+        // int c = 10;
+        // byte d = c;
+        // System.out.println(d); // Narrow Conversion
 
         int e = 10;
         byte f = (byte) e;
