@@ -1,5 +1,5 @@
-class Example{
-    public static void main(String[] args){
-        System.lut.println("Hello");
+class Example {
+    public static void main(String[] args) {
+        System.out.println("Hello");
     }
 }
