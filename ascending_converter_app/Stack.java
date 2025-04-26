@@ -1,4 +1,4 @@
-package stack;
+package ascending_converter_app;
 
 public class Stack {
     private int top;
