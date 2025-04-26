@@ -1,0 +1,1 @@
+# Basic Types for TypeScript

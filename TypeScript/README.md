@@ -37,3 +37,43 @@ TypeScript is an open-source programming language developed by Microsoft. It is 
 > **Future-Proofing** : TypeScript aligns with industry trends, and many modern frameworks and libraries are adopting or supporting TypeScript out of the box, ensuring long-term compatibility
 
 > **Flexibility** : TypeScript can be used for both frontend and backend development, wherever JavaScript is used, making it a versatile choice for full-stack projects
+<hr/>
+
+## Here's a structure for TypeScript tutorial
+
+> 1. Basic Types
+- Primitive types (number, string, boolean)
+- Arrays and tuples
+- Any, unknown, void, null, and undefined
+- Type assertions and type inference
+
+> 2. Interfaces and Type Aliases
+- Defining interfaces
+- Optional properties
+- Readonly properties
+- Type aliases
+- Union and intersection types
+
+> 3. Functions in TypeScript
+### Not Design Yet
+
+> 4. Classes and Object-Oriented Programming
+### Not Design Yet
+
+> 5. Generics
+### Not Design Yet
+
+> 6. Advanced Types
+### Not Design Yet
+
+> 7. TypeScript with Modern JavaScript
+### Not Design Yet
+
+> 8. Practical Projects
+### Not Design Yet
+
+> 9. Best Practices and Tips
+### Not Design Yet
+
+> Each Sections have Code Examples
+
