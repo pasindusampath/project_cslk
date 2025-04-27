@@ -1,4 +1,4 @@
-package stack;
+package ascending_converter_app;
 
 import java.util.Scanner;
 
